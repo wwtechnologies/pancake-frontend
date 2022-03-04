@@ -74,9 +74,9 @@ const topLeftImage = {
 const bottomRightImage = {
   path: '/images/home/flying-pancakes/',
   attributes: [
-    { src: '2-bottom', alt: 'Pancake flying on the bottom' },
-    { src: '2-top', alt: 'Pancake flying on the top' },
-    { src: '2-right', alt: 'Pancake flying on the right' },
+    { src: '2-bottom.png', alt: 'Pancake flying on the bottom' },
+    { src: '2-top.png', alt: 'Pancake flying on the top' },
+    { src: '2-right.png', alt: 'Pancake flying on the right' },
   ],
 }
 
@@ -101,17 +101,17 @@ const Footer = () => {
       </FloatingPancakesWrapper>
       <Wrapper>
         <Heading mb="24px" scale="xl" color="white">
-          {t('Start in seconds.')}
+          {t('Huge Wins Daily')}
         </Heading>
         <Text textAlign="center" color="white">
-          {t('Connect your crypto wallet to start using the app in seconds.')}
+          {t('Check out our always win lottery. One winner is selected to win the pot every round.')}
         </Text>
         <Text mb="24px" bold color="white">
           {t('No registration needed.')}
         </Text>
 
         <Link external href="https://docs.pancakeswap.finance/">
-          {t('Learn how to start')}
+          {t('Learn how to play')}
         </Link>
         {!account && <ConnectWalletButton mt="24px" />}
       </Wrapper>
