@@ -65,9 +65,9 @@ const BottomRightImgWrapper = styled(Flex)`
 const topLeftImage = {
   path: '/images/home/flying-pancakes/',
   attributes: [
-    { src: '1-bottom', alt: 'Pancake flying on the bottom' },
-    { src: '1-left', alt: 'Pancake flying on the left' },
-    { src: '1-top', alt: 'Pancake flying on the top' },
+    { src: '1-bottom.png', alt: 'Pancake flying on the bottom' },
+    { src: '1-left.png', alt: 'Pancake flying on the left' },
+    { src: '1-top.png', alt: 'Pancake flying on the top' },
   ],
 }
 
